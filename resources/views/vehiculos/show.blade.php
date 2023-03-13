@@ -181,7 +181,7 @@
                           <div class="text-center">
                              <div class="user-profile">
                                 <div class="visible-print text-center">
-                                   {!! QrCode::size(250)->generate('http://licenciasmsjl.test/view-verification/'.$vehiculo->uuid.'?');!!}
+                                   {!! QrCode::size(250)->generate('https://sistram.zvkaypzu.lucusvirtual.es/view-verification/'.$vehiculo->uuid.'?');!!}
                                    <p></p>
                                    {{-- <p>MSJL Copyright Derechos Reservados.</p> --}}
                                    <a href="{{route('vehiculo.pdf',$vehiculo)}}" class="jsgrid-button jsgrid-edit-button"> 

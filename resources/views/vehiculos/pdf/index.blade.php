@@ -10,7 +10,7 @@
 <body>
     <center>
         <div class="visible-print text-center">
-            <img src="data:image/png;base64, {!! base64_encode(QrCode::size(500)->generate('http://codersfree.test/view-verfication/'.$vehiculo->uuid.'?')) !!} ">
+            <img src="data:image/png;base64, {!! base64_encode(QrCode::size(500)->generate('https://sistram.zvkaypzu.lucusvirtual.es/view-verfication/'.$vehiculo->uuid.'?')) !!} ">
             <p>SLTC Copyright Derechos Reservados.</p>
         </div>
     </center>
